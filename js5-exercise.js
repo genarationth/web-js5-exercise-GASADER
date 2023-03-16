@@ -12,7 +12,6 @@
 // for (let i = 1; i <= 5; i++) {
 
 //     let result = ''
-
 //     for(let j = 1; j <= i; j++) {
 //         result += '*'
 //     }
@@ -30,12 +29,17 @@
 // xValue(8)
 
 // 3.2
-for (let i = 1; i <= 100; i += 2) {
-    if (i === 100) {
-      break;
-    }
-    console.log(i);
-  }
+// oddNumber = (n) => {
+
+//   for (let i = 1; i <= n; i += 2) {
+//       if (i === n) {
+//         break;
+//       }
+//       console.log(i);
+//     }
+// }
+// oddNumber(100)
+
 // 3.3
 // let i 
 // printSquare = (n) => {
