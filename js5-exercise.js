@@ -30,13 +30,12 @@
 // xValue(8)
 
 // 3.2
-// let i
-//  oddNumber= (n) => {
-//     for (i = 0; i <= n; (i % 2) !== 0, i++ )
-//     console.log(`oddNumber: ${n} `) 
-//  }
-//  oddNumber(100)
-
+for (let i = 1; i <= 100; i += 2) {
+    if (i === 100) {
+      break;
+    }
+    console.log(i);
+  }
 // 3.3
 // let i 
 // printSquare = (n) => {
