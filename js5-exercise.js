@@ -30,11 +30,7 @@
 
 // 3.2
 // oddNumber = (n) => {
-
 //   for (let i = 1; i <= n; i += 2) {
-//       if (i === n) {
-//         break;
-//       }
 //       console.log(i);
 //     }
 // }
@@ -50,13 +46,14 @@
 // printSquare(8)
 
 // 3.4
-//  sumNumber = (n) => {
-//     let sum = 0;
-//     let i = 1;
-//     while (i <= n) {
-//       sum += i;
-//       i++;
-//     }
-//     return sum;
-//   }
-//   console.log(sumNumber(60))
+
+sumNumber = (n) => {
+      let j = 0;
+      let i = 1;
+      while (i < n) {
+        j += i;
+        i++;
+      }
+      console.log(`first number: ${i}, sum number : ${j} `)
+    }
+  sumNumber(60)
